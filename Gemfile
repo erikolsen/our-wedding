@@ -38,3 +38,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem "haml-rails", "~> 0.9"
+gem 'foundation-rails'
