@@ -1,0 +1,21 @@
+.container
+  .cover-page
+    .row
+      .large-12.column
+        %h1
+          Mandy and Erik
+  .church-page
+    .row
+      .large-6.column
+        = image_tag('bethel.jpg')
+        %h2
+          Chuch
+
+  .venue-page
+    .row
+      .large-6.column
+        %h2
+          Venue
+
+
+

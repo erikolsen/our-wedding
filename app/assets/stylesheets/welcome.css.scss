@@ -1,3 +1,76 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+ // position: fixed;
+ // top: 0;
+ // bottom: 0;
+ // left: 0;
+ // right: 0;
+ // max-width: 963px;
+ // max-height: 100%;
+ // margin: auto;
+ // overflow: auto;
+}
+
+.font-dropshadow {
+  text-shadow: .04em .04em 0 #fff,.08em .08em 0 #aaa;
+  -webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
+}
+
+.full-width-title p {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight: bold;
+}
+
+.subtitle p {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight: bold;
+}
+
+.location-title p {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.overlay {
+  background: light-grey;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  opacity: .9;
+  z-index: 5;
+}
+
+.cover-page {
+  background: url('book-heart.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.church-page {
+  background: url('bethel.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.reception-page {
+  background: url('reception.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
