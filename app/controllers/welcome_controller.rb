@@ -10,6 +10,14 @@ class WelcomeController < ApplicationController
   def ceremony
   end
 
+  def registry
+    render template: 'under_development'
+  end
+
+  def places_to_stay
+    render template: 'under_development'
+  end
+
   def navbar
     params[:navbar] || 'topbar'
   end
