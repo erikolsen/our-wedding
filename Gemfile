@@ -42,4 +42,4 @@ gem 'foundation-rails', '5.4.3.1'
 gem 'rails_12factor'
 
 
-ruby '2.1.2'
+ruby '2.2.2'

@@ -15,7 +15,6 @@ class WelcomeController < ApplicationController
   end
 
   def places_to_stay
-    render template: 'under_development'
   end
 
   def navbar
