@@ -11,7 +11,6 @@ class WelcomeController < ApplicationController
   end
 
   def registry
-    render template: 'under_development'
   end
 
   def places_to_stay

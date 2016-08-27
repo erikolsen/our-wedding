@@ -12,8 +12,8 @@
 
 .full-width-title p {
   text-align: center;
-  font-size: 2em;
-  font-family: 'Petit Formal Script', cursive;
+  font-size: 3.75em;
+  font-family: 'Merienda One', cursive;
   font-weight: bold;
   line-height: 1.2em;
 }
@@ -21,7 +21,7 @@
 .subtitle p {
   text-align: center;
   font-size: 1.5em;
-  font-family: 'Petit Formal Script', cursive;
+  font-family: 'Merienda One', cursive;
   font-weight: bold;
 }
 
@@ -43,14 +43,42 @@
 .church-page {
   background: url('<%= asset_path("bethel.jpg") %>') no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   color: white;
+}
+
+.church-page .full-width-title{
+  font-size: .5em;
 }
 
 .reception-page {
   background: url('<%= asset_path("reception.jpg") %>') no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
+  width: 100vw;
+}
+.info h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Merienda One', cursive;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+.info p {
+  font-family: 'Merienda One', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.reception-page .map {
+  width: 50vw;
+}
+
+.registry-page {
+  background: url('<%= asset_path("registry_hearts.jpg") %>') no-repeat center bottom;
+  background-size: cover;
+  height: 80vh;
   width: 100vw;
 }
