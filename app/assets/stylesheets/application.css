@@ -14,8 +14,6 @@
  *= require_self
  *= require foundation_and_overrides
  */
-$autumnRed: #89000E
-
 @included foundation-menu-icon
 .container {
   margin: 3em;
