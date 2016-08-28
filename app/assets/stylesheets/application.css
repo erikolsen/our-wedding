@@ -20,7 +20,11 @@
   padding: 3em;
 }
 .lightgrey-background {
-  background-color: lightgrey;
+  background-color: #FEF9E7;
+}
+
+.places-to-stay {
+  height: 100vh;
 }
 
 .hotel-image {
