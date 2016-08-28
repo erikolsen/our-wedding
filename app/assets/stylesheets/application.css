@@ -20,7 +20,7 @@
   padding: 3em;
 }
 .lightgrey-background {
-  background-color: #FEF9E7;
+  background-color: white;
 }
 
 .places-to-stay {
@@ -33,4 +33,5 @@
   padding-top: 1em;
   padding-bottom: 1em;
   height: 75px;
+
 }
